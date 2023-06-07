@@ -1,3 +1,5 @@
+import avatar from "/okphe.webp";
+
 const Body: React.FC = () => {
   return (
     <main className="l-main bd-container">
@@ -7,7 +9,7 @@ const Body: React.FC = () => {
           <section className="home" id="home">
             <div className="home__container section bd-grid">
               <div className="home__data bd-grid">
-                <img src="/okphe.webp" alt="avatar" className="home__img" />
+                <img src={avatar} alt="avatar" className="home__img" />
                 <h1 className="home__title">Vo Quang Chien</h1>
                 <h3 className="home__profession">Front-End Developer</h3>
               </div>
