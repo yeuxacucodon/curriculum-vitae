@@ -16,9 +16,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  install:
-    runs-on: ubuntu-lastest
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -28,15 +33,6 @@ jobs:
         with:
           node-version: "node"
           cache: "pnpm"
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Install dependencies
         run: pnpm install
       - name: Compile scss
