@@ -244,14 +244,27 @@ img {
   .education__line {
     display: block;
     width: 2px;
-    height: 110%;
+    height: 120%;
     background-color: $text-color-light;
     transform: translate(7px, 0);
+  }
+  .education__data {
+    gap: 0.5rem;
+  }
+  .education__title {
+    font-size: $h3-font-size;
+  }
+  .education__studies {
+    font-size: $small-font-size;
+    color: $title-color;
+  }
+  .education__year {
+    font-size: $smaller-font-size;
   }
 }
 
 .education__content:last-child {
   .education__line {
-    height: 90%;
+    height: 70%;
   }
 }
