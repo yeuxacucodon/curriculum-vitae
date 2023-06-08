@@ -20,43 +20,43 @@ export default function Header() {
             return (
               <animated.div className="nav__menu" id="nav-menu" style={style}>
                 <ul className="nav__list">
-                  <li className="nav__item">
-                    <a href="#" className="nav__link">
+                  <li className="nav__item" onClick={() => setShow(false)}>
+                    <a href="#home" className="nav__link">
                       <i className="bx bx-home"></i>Home
                     </a>
                   </li>
 
-                  <li className="nav__item">
-                    <a href="#" className="nav__link">
+                  <li className="nav__item" onClick={() => setShow(false)}>
+                    <a href="#profile" className="nav__link">
                       <i className="bx bx-user"></i>Profile
                     </a>
                   </li>
 
-                  <li className="nav__item">
+                  <li className="nav__item" onClick={() => setShow(false)}>
                     <a href="#" className="nav__link">
                       <i className="bx bxs-book"></i>Education
                     </a>
                   </li>
 
-                  <li className="nav__item">
+                  <li className="nav__item" onClick={() => setShow(false)}>
                     <a href="#" className="nav__link">
                       <i className="bx bxs-receipt"></i>Skills
                     </a>
                   </li>
 
-                  <li className="nav__item">
+                  <li className="nav__item" onClick={() => setShow(false)}>
                     <a href="#" className="nav__link">
                       <i className="bx bxs-briefcase"></i>Experience
                     </a>
                   </li>
 
-                  <li className="nav__item">
+                  <li className="nav__item" onClick={() => setShow(false)}>
                     <a href="#" className="nav__link">
                       <i className="bx bxs-award"></i>Certificates
                     </a>
                   </li>
 
-                  <li className="nav__item">
+                  <li className="nav__item" onClick={() => setShow(false)}>
                     <a href="#" className="nav__link">
                       <i className="bx bx-link-external"></i>References
                     </a>
