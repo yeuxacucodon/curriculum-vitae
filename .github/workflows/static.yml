@@ -35,10 +35,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: latest
-          cache: yarn
-      - run: yarn
-      - run: yarn sass src/style.scss src/style.css
-      - run: yarn build
+          cache: pnpm
+      - run: pnpm install
+      - run: pnpm sass src/style.scss src/style.css
+      - run: pnpm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
