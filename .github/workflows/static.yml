@@ -34,8 +34,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: latest
-          cache: pnpm
+          node-version: node
+          cache: "pnpm"
       - run: pnpm install
       - run: pnpm sass src/style.scss src/style.css
       - run: pnpm run build
