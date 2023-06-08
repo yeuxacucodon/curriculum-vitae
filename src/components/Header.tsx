@@ -4,8 +4,8 @@ import { useTransition, animated } from "@react-spring/web";
 export default function Header() {
   const [show, setShow] = useState(false);
   const transition = useTransition(show, {
-    from: { y: 50, opacity: 0 },
-    enter: { y: 0, x: 0, opacity: 1 },
+    from: { y: 50 },
+    enter: { y: 0 },
     leave: { y: 500 },
   });
 
