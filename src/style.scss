@@ -249,3 +249,9 @@ img {
     transform: translate(7px, 0);
   }
 }
+
+.education__content:last-child {
+  .education__line {
+    height: 90%;
+  }
+}
