@@ -170,21 +170,17 @@ img {
 
 .home {
   position: relative;
-
   i {
     font-size: 1.2rem;
     margin-right: 0.25rem;
   }
-
   .home__container {
     gap: 3rem;
   }
-
   .home__data {
     gap: 0.5rem;
     text-align: center;
   }
-
   .home__img {
     width: 120px;
     height: 120px;
@@ -192,20 +188,16 @@ img {
     justify-self: center;
     margin-bottom: $mb-1;
   }
-
   .home__title {
     font-size: $h1-font-size;
   }
-
   .home__profession {
     font-size: $normal-font-size;
     margin-bottom: $mb-1;
   }
-
   .home__address {
     gap: 1rem;
   }
-
   .home__infomation {
     display: flex;
     align-items: center;
