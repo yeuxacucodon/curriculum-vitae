@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTransition, animated } from "@react-spring/web";
 
-const Header: React.FC = () => {
+export default function Header() {
   const [show, setShow] = useState(false);
   const transition = useTransition(show, {
     from: { y: 50, opacity: 0 },
@@ -72,6 +72,4 @@ const Header: React.FC = () => {
       </nav>
     </header>
   );
-};
-
-export default Header;
+}
