@@ -1,5 +1,7 @@
 import Info from "./Info";
 import Social from "./Social";
+import Profile from "./Profile";
+import Education from "./Education";
 
 export default function Body() {
   return (
@@ -8,6 +10,8 @@ export default function Body() {
         <div className="resume__left">
           <Info />
           <Social />
+          <Profile />
+          <Education />
         </div>
       </div>
     </main>
