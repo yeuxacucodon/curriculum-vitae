@@ -322,6 +322,19 @@ img {
   }
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  p {
+    font-size: 14px;
+  }
+  i {
+    font-size: 12px;
+  }
+}
+
 .scrolltop {
   position: fixed;
   right: 1rem;
