@@ -1,3 +1,4 @@
+import Scrolltop from "./Scrolltop";
 // Left
 import Info from "./Info";
 import Social from "./Social";
@@ -12,23 +13,26 @@ import Interests from "./Interests";
 
 export default function Body() {
   return (
-    <main className="l-main bd-container">
-      <div className="resume">
-        <div className="resume__left">
-          <Info />
-          <Social />
-          <Profile />
-          <Education />
-          <Skills />
-        </div>
+    <>
+      <main className="l-main bd-container">
+        <div className="resume">
+          <div className="resume__left">
+            <Info />
+            <Social />
+            <Profile />
+            <Education />
+            <Skills />
+          </div>
 
-        <div className="resume__right">
-          <Experience />
-          <Certificates />
-          <Languages />
-          <Interests />
+          <div className="resume__right">
+            <Experience />
+            <Certificates />
+            <Languages />
+            <Interests />
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+      <Scrolltop />
+    </>
   );
 }
