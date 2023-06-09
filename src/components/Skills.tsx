@@ -15,7 +15,10 @@ export default function Skills() {
             <span className="skills__circle"></span>Shell / Bash
           </li>
           <li className="skills__name">
-            <span className="skills__circle"></span>JavaScript, TypeScript
+            <span className="skills__circle"></span>JavaScript
+          </li>
+          <li className="skills__name">
+            <span className="skills__circle"></span>TypeScript
           </li>
         </ul>
 

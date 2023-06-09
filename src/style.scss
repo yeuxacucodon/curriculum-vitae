@@ -339,3 +339,54 @@ img {
     color: $text-color;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .nav {
+    .nav__list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem 0.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 968px) {
+  body {
+    margin: 3rem 0;
+  }
+  .bd-container {
+    margin: auto;
+  }
+  .l-header,
+  .scrolltop {
+    display: none;
+  }
+  .resume {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    background-color: $container-color;
+    box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
+  }
+
+  .resume__left {
+    background-color: $container-color-alt;
+  }
+  .resume__left,
+  .resume__right {
+    padding: 0 1.5rem;
+  }
+  .section-title,
+  .profile__description {
+    text-align: initial;
+  }
+  .home__container {
+    gap: 1.5rem;
+  }
+  .languages__content {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3.5rem;
+  }
+  .interests__container {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3.5rem;
+  }
+}
