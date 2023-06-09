@@ -279,16 +279,18 @@ img {
   }
 }
 
-// Skills
-.skills__content {
+// Skills and Languages
+.skills__content,
+.languages__content {
   grid-template-columns: repeat(2, 1fr);
-  gap: 0;
-  .skills__name {
+  .skills__name,
+  .languages__name {
     display: flex;
     align-items: center;
     margin-bottom: $mb-3;
   }
-  .skills__circle {
+  .skills__circle,
+  .languages__circle {
     display: inline-block;
     width: 5px;
     height: 5px;
@@ -296,4 +298,10 @@ img {
     border-radius: 50%;
     margin-right: 0.75rem;
   }
+}
+
+// Certificates
+.certificate__title {
+  font-size: $h3-font-size;
+  margin-bottom: $mb-1;
 }
