@@ -323,16 +323,7 @@ img {
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  p {
-    font-size: 14px;
-  }
-  i {
-    font-size: 12px;
-  }
+  display: none;
 }
 
 .scrolltop {
@@ -401,5 +392,17 @@ img {
   .interests__container {
     grid-template-columns: repeat(3, max-content);
     column-gap: 3.5rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    p {
+      font-size: 14px;
+    }
+    i {
+      font-size: 12px;
+    }
   }
 }
