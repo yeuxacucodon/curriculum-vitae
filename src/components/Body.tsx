@@ -6,6 +6,7 @@ import Education from "./Education";
 import Skills from "./Skills";
 // Right
 import Experience from "./Experience";
+import Certificates from "./Certificates";
 
 export default function Body() {
   return (
@@ -21,6 +22,7 @@ export default function Body() {
 
         <div className="resume__right">
           <Experience />
+          <Certificates />
         </div>
       </div>
     </main>
