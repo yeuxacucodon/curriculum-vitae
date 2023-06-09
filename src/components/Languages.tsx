@@ -1,6 +1,6 @@
 export default function Languages() {
   return (
-    <section className="languages section">
+    <section className="languages section" id="languages">
       <h2 className="section-title">Languages</h2>
 
       <div className="languages__container">

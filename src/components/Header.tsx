@@ -39,26 +39,26 @@ export default function Header() {
                 </li>
 
                 <li className="nav__item" onClick={() => setShow(false)}>
-                  <a href="#" className="nav__link">
+                  <a href="#skills" className="nav__link">
                     <i className="bx bxs-receipt"></i>Skills
                   </a>
                 </li>
 
                 <li className="nav__item" onClick={() => setShow(false)}>
-                  <a href="#" className="nav__link">
+                  <a href="#experience" className="nav__link">
                     <i className="bx bxs-briefcase"></i>Experience
                   </a>
                 </li>
 
                 <li className="nav__item" onClick={() => setShow(false)}>
-                  <a href="#" className="nav__link">
+                  <a href="#certificates" className="nav__link">
                     <i className="bx bxs-award"></i>Certificates
                   </a>
                 </li>
 
                 <li className="nav__item" onClick={() => setShow(false)}>
-                  <a href="#" className="nav__link">
-                    <i className="bx bx-link-external"></i>References
+                  <a href="#languages" className="nav__link">
+                    <i className="bx bx-link-external"></i>Languages
                   </a>
                 </li>
               </ul>
