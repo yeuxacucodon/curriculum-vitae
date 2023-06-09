@@ -33,7 +33,7 @@ export default function Header() {
                 </li>
 
                 <li className="nav__item" onClick={() => setShow(false)}>
-                  <a href="#" className="nav__link">
+                  <a href="#education" className="nav__link">
                     <i className="bx bxs-book"></i>Education
                   </a>
                 </li>
