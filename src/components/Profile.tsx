@@ -5,7 +5,7 @@ export default function Profile() {
       <p className="profile__description">
         I'm always learning to improve my programming skills to develop professionally. I'm always work responsibly and
         happy to take on any task. I have several years of experience working with JavaScript, TypeScript, HTML & CSS,
-        React, Redux, React Spring, NEXT.js and Git.
+        React, Redux, React Spring, NEXT.js, Linux Terminal and Git.
       </p>
     </section>
   );

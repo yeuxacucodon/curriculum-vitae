@@ -305,3 +305,18 @@ img {
   font-size: $h3-font-size;
   margin-bottom: $mb-1;
 }
+
+.interests__container {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: $mb-2;
+  .interests__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    i {
+      font-size: 1.5rem;
+      color: $text-color-light;
+      margin-bottom: 0.25rem;
+    }
+  }
+}
