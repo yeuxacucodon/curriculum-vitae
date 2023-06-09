@@ -2,22 +2,21 @@ import { useState, useEffect } from "react";
 import { useTransition, animated } from "@react-spring/web";
 
 export default function Scrolltop() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const transition = useTransition(show, {
     from: { y: 100, opacity: 0.5 },
     enter: { y: 0, opacity: 1 },
     leave: { y: 100, opacity: 0 },
   });
 
-  const handleScroll = () => {
-    if (window.scrollY >= 100) {
-      setShow(true);
-    } else {
-      setShow(false);
-    }
-  };
-
   useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 100) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    };
     window.addEventListener("scroll", handleScroll);
   }, []);
 
