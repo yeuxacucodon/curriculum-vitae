@@ -26,6 +26,7 @@ $mb-3: 1.5rem;
 $z-tooltip: 10;
 $z-fixed: 100;
 
+// Common
 *,
 ::before,
 ::after {
@@ -99,6 +100,7 @@ img {
   gap: 1.5rem;
 }
 
+// Header
 .l-header {
   width: 100%;
   position: fixed;
@@ -110,11 +112,43 @@ img {
   transition: 0.3s;
 }
 
+// Nav
 .nav {
   height: $header-height;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .nav__logo,
+  .nav__toggle {
+    color: $title-color;
+    font-weight: $font-medium;
+  }
+  .nav__toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .nav__item {
+    text-align: center;
+  }
+  .nav__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    i {
+      font-size: 1.2rem;
+      margin-bottom: $mb-1;
+    }
+  }
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    font-size: $smaller-font-size;
+    color: $text-color-light;
+    font-weight: $font-medium;
+    &:hover {
+      color: $title-color;
+    }
+  }
 }
 
 @media screen and (max-width: 968px) {
@@ -132,42 +166,7 @@ img {
   }
 }
 
-.nav__logo,
-.nav__toggle {
-  color: $title-color;
-  font-weight: $font-medium;
-}
-
-.nav__toggle {
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.nav__item {
-  text-align: center;
-}
-
-.nav__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  i {
-    font-size: 1.2rem;
-    margin-bottom: $mb-1;
-  }
-}
-
-.nav__link {
-  display: flex;
-  flex-direction: column;
-  font-size: $smaller-font-size;
-  color: $text-color-light;
-  font-weight: $font-medium;
-  &:hover {
-    color: $title-color;
-  }
-}
-
+// Home
 .home {
   position: relative;
   i {
@@ -205,6 +204,7 @@ img {
   }
 }
 
+// Social
 .social__container {
   grid-template-columns: max-content;
   gap: 1rem;
@@ -223,10 +223,12 @@ img {
   }
 }
 
+// Profile
 .profile__description {
   text-align: center;
 }
 
+// Education
 .education__content {
   display: flex;
   .education__time {
@@ -262,9 +264,27 @@ img {
     font-size: $smaller-font-size;
   }
 }
-
 .education__content:last-child {
   .education__line {
     height: 70%;
+  }
+}
+
+// Skills
+.skills__content {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  .skills__name {
+    display: flex;
+    align-items: center;
+    margin-bottom: $mb-3;
+  }
+  .skills__circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: $text-color;
+    border-radius: 50%;
+    margin-right: 0.75rem;
   }
 }

@@ -2,6 +2,7 @@ import Info from "./Info";
 import Social from "./Social";
 import Profile from "./Profile";
 import Education from "./Education";
+import Skills from "./Skills";
 
 export default function Body() {
   return (
@@ -12,6 +13,7 @@ export default function Body() {
           <Social />
           <Profile />
           <Education />
+          <Skills />
         </div>
       </div>
     </main>
