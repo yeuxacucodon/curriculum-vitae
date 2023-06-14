@@ -1,0 +1,24 @@
+.skills__content {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #403a3a;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+@media screen and (min-width: 968px) {
+  .skills__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,22 @@
+.interests__container {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1rem;
+}
+
+.interests__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  i {
+    font-size: 1.5rem;
+    color: #707070;
+    margin-bottom: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .interests__container {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3.5rem;
+  }
+}

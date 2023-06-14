@@ -1,0 +1,25 @@
+.languages__content {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.languages__name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.languages__circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #403a3a;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+@media screen and (min-width: 968px) {
+  .languages__content {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3.5rem;
+  }
+}

@@ -1,0 +1,44 @@
+.experience__content {
+  display: flex;
+}
+
+.experience__time {
+  padding-right: 1rem;
+}
+
+.experience__rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #707070;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+.experience__line {
+  display: block;
+  width: 2px;
+  height: 120%;
+  background-color: #707070;
+  transform: translate(7px, 0);
+}
+
+.experience__data {
+  gap: 0.5rem;
+}
+
+.experience__title {
+  font-size: 1rem;
+}
+
+.experience__company {
+  font-size: 0.875rem;
+  color: #0b0a0a;
+}
+
+.experience__content:last-child {
+  .experience__line {
+    height: 70%;
+  }
+}

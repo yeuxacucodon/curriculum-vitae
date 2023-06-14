@@ -1,0 +1,18 @@
+.footer {
+  display: none;
+}
+
+@media screen and (min-width: 968px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    p {
+      font-size: 14px;
+    }
+    i {
+      font-size: 12px;
+    }
+  }
+}

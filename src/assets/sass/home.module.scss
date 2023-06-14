@@ -1,0 +1,49 @@
+.home {
+  position: relative;
+  i {
+    font-size: 1.2rem;
+    margin-right: 0.25rem;
+  }
+}
+
+.home__container {
+  gap: 3rem;
+}
+
+.home__data {
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.home__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: 0.5rem;
+}
+
+.home__title {
+  font-size: 1.5rem;
+}
+
+.home__profession {
+  font-size: 0.938rem;
+  margin-bottom: 0.5rem;
+}
+
+.home__address {
+  gap: 1rem;
+}
+
+.home__information {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 968px) {
+  .home__container {
+    gap: 1.5rem;
+  }
+}

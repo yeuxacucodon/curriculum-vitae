@@ -1,0 +1,48 @@
+.education__content {
+  display: flex;
+}
+
+.education__time {
+  padding-right: 1rem;
+}
+
+.education__rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #707070;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+.education__line {
+  display: block;
+  width: 2px;
+  height: 120%;
+  background-color: #707070;
+  transform: translate(7px, 0);
+}
+
+.education__data {
+  gap: 0.5rem;
+}
+
+.education__title {
+  font-size: 1rem;
+}
+
+.education__studies {
+  font-size: 0.875rem;
+  color: #0b0a0a;
+}
+
+.education__year {
+  font-size: 0.813rem;
+}
+
+.education__content:last-child {
+  .education__line {
+    height: 70%;
+  }
+}
