@@ -16,13 +16,13 @@ export default function Projects() {
             <p>
               Live preview:{" "}
               <a target="_blank" href="https://thebandyeuxa.netlify.app/">
-                https://thebandyeuxa.netlify.app
+                Click me!
               </a>
             </p>
             <p>
               GitHub repo:{" "}
               <a target="_blank" href="https://github.com/yeuxacucodon/The_Band">
-                https://github.com/yeuxacucodon/The_Band
+                Click me!
               </a>
             </p>
             <p>Technologies used: HTML, CSS, JavaScript</p>
@@ -39,13 +39,13 @@ export default function Projects() {
             <p>
               Live preview:{" "}
               <a href="https://yeuxacucodon.github.io/Fylo_landing_page/" target="_blank">
-                https://yeuxacucodon.github.io/Fylo_landing_page
+                Click me!
               </a>
             </p>
             <p>
               GitHub repo:{" "}
               <a target="_blank" href="https://github.com/yeuxacucodon/Fylo_landing_page">
-                https://github.com/yeuxacucodon/Fylo_landing_page
+                Click me!
               </a>
             </p>
             <p>Technologies used: HTML, Sass</p>
