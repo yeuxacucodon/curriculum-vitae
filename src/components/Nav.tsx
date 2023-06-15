@@ -54,12 +54,6 @@ export default function Nav() {
                 </li>
 
                 <li className={styles.nav__item} onClick={() => setShow(false)}>
-                  <a href="#certificates" className={styles.nav__link}>
-                    <i className="bx bxs-award"></i>Certificates
-                  </a>
-                </li>
-
-                <li className={styles.nav__item} onClick={() => setShow(false)}>
                   <a href="#languages" className={styles.nav__link}>
                     <i className="bx bx-link-external"></i>Languages
                   </a>

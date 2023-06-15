@@ -6,8 +6,6 @@ import Profile from "./Profile";
 import Education from "./Education";
 import Skills from "./Skills";
 // Right
-import Experience from "./Experience";
-import Certificates from "./Certificates";
 import Languages from "./Languages";
 import Interests from "./Interests";
 
@@ -26,8 +24,6 @@ export default function Body() {
 
           <div className="resume__right">
             <Skills />
-            <Experience />
-            <Certificates />
             <Interests />
           </div>
         </div>

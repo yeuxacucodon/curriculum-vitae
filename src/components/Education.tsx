@@ -37,7 +37,7 @@ export default function Education() {
           </div>
           <div className={[styles.education__data, "bd-grid"].join(" ")}>
             <h3 className={styles.education__title}>React, React Spring, React Router, Redux</h3>
-            <span className={styles.education__studies}>F8, W3Schools, freeCodeCamp, YouTube</span>
+            <span className={styles.education__studies}>F8, W3Schools, freeCodeCamp</span>
             <span className={styles.education__year}>October, 2022 - April, 2023</span>
           </div>
         </div>
