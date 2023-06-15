@@ -13,13 +13,10 @@ export default function Info() {
         </div>
         <div className={[styles.home__address, "bd-grid"].join(" ")}>
           <span className={styles.home__information}>
-            <i className="bx bxs-map"></i>Hue, Viet Nam
+            <i className="bx bxs-phone"></i>0852008975
           </span>
           <span className={styles.home__information}>
             <i className="bx bxs-envelope"></i>yeuxacucodon.dev@proton.me
-          </span>
-          <span className={styles.home__information}>
-            <i className="bx bxs-phone"></i>0852008975
           </span>
         </div>
       </div>

@@ -9,7 +9,10 @@ export default function Social() {
           <i className="bx bxl-github"></i>yeuxacucodon
         </a>
         <a target="_blank" href="https://facebook.com/langthangchokopai" className={styles.social__link}>
-          <i className="bx bxl-facebook-circle"></i>Vo Quang Chien
+          <i className="bx bxl-facebook-circle"></i>langthangchokopai
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/2giosangmitom" className={styles.social__link}>
+          <i className="bx bxl-linkedin-square"></i>2giosangmitom
         </a>
       </div>
     </section>

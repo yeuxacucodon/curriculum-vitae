@@ -4,10 +4,10 @@ import Home from "./Home";
 import Social from "./Social";
 import Profile from "./Profile";
 import Education from "./Education";
-import Skills from "./Skills";
-// Right
 import Languages from "./Languages";
+// Right
 import Interests from "./Interests";
+import Skills from "./Skills";
 
 export default function Body() {
   return (
