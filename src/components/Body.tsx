@@ -8,6 +8,7 @@ import Languages from "./Languages";
 // Right
 import Interests from "./Interests";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function Body() {
   return (
@@ -23,6 +24,7 @@ export default function Body() {
           </div>
 
           <div className="resume__right">
+            <Projects />
             <Skills />
             <Interests />
           </div>

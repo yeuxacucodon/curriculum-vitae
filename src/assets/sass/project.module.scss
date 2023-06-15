@@ -1,0 +1,46 @@
+.project__rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #707070;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+.project__line {
+  display: block;
+  width: 2px;
+  height: 120%;
+  background-color: #707070;
+  transform: translate(7px, 0);
+}
+
+.project__title {
+  font-size: 1rem;
+}
+
+.project__content {
+  display: flex;
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+  a {
+    color: #403a3a;
+    &:hover {
+      color: #0b0a0a;
+    }
+  }
+  p {
+    color: #0b0a0a;
+  }
+}
+
+.project__content:last-child .project__line {
+  height: 75%;
+}
+
+.project__data {
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+}
