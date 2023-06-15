@@ -22,6 +22,9 @@ export default function Skills() {
           <li className={styles.skills__name}>
             <span className={styles.skills__circle}></span>TypeScript
           </li>
+          <li className={styles.skills__name}>
+            <span className={styles.skills__circle}></span>Rust
+          </li>
         </ul>
 
         <ul>

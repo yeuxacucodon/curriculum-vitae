@@ -5,9 +5,9 @@ export default function Profile() {
     <section className="profile section" id="profile">
       <h2 className="section-title">Profile</h2>
       <p className={styles.profile__description}>
-        I&apos;m always learning to improve my programming skills to develop professionally. I&apos;m always work
-        responsibly and happy to take on any task. I have several years of experience working with JavaScript,
-        TypeScript, HTML & CSS, React, React Spring, Next.js, Linux Terminal and Git.
+        I always actively learn new technologies by myself. I&apos;m responsible at work. I have less than 1 year of
+        experience working with JavaScript, TypeScript, HTML & CSS, React, React Spring, Next.js, Linux Terminal and
+        Git.
       </p>
     </section>
   );

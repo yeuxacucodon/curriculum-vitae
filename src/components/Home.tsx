@@ -9,7 +9,7 @@ export default function Info() {
         <div className={[styles.home__data, "bd-grid"].join(" ")}>
           <Image src={avt} priority={true} alt="avatar" className={styles.home__img} />
           <h1 className={styles.home__title}>Vo Quang Chien</h1>
-          <h3 className={styles.home__profession}>Front-End Developer</h3>
+          <h3 className={styles.home__profession}>Web Developer</h3>
         </div>
         <div className={[styles.home__address, "bd-grid"].join(" ")}>
           <span className={styles.home__information}>

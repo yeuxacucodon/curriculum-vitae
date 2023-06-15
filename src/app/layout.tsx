@@ -8,12 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Vo Quang Chien",
   icons: {
-    icon: "/avt.png",
-  },
-  keywords: ["Next.js", "React", "Server Components", "Resume", "Vo Quang Chien"],
-  openGraph: {
-    type: "website",
-    locale: "en_US",
+    icon: "/image/favicon.png",
   },
 };
 

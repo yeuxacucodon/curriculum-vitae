@@ -6,12 +6,18 @@ export default function Languages() {
       <h2 className="section-title">Languages</h2>
 
       <div>
-        <ul className={[styles.languages__content, "bd-grid"].join(" ")}>
+        <ul>
           <li className={styles.languages__name}>
-            <span className={styles.languages__circle}></span> Vietnamese
+            <span className={styles.language}>Vietnamese</span>
+            <span className={styles.languages__percent}>
+              <div style={{ width: "90%" }}></div>
+            </span>
           </li>
           <li className={styles.languages__name}>
-            <span className={styles.languages__circle}></span> English
+            <span className={styles.language}>English</span>
+            <span className={styles.languages__percent}>
+              <div style={{ width: "60%" }}></div>
+            </span>
           </li>
         </ul>
       </div>

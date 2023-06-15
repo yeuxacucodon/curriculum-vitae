@@ -21,13 +21,13 @@ export default function Body() {
             <Social />
             <Profile />
             <Education />
+            <Languages />
           </div>
 
           <div className="resume__right">
             <Skills />
             <Experience />
             <Certificates />
-            <Languages />
             <Interests />
           </div>
         </div>

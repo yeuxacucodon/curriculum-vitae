@@ -1,25 +1,29 @@
-.languages__content {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.languages__name {
+.languages__name:first-child {
   display: flex;
-  align-items: center;
   margin-bottom: 1.5rem;
+  flex-direction: column;
 }
 
-.languages__circle {
-  display: inline-block;
-  width: 5px;
-  height: 5px;
+.language {
+  color: #0b0a0a;
+}
+
+.languages__percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
   background-color: #403a3a;
-  border-radius: 50%;
-  margin-right: 0.75rem;
+  display: block;
+  margin-top: 5px;
+  div {
+    background-color: #38c4bb;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 968px) {
   .languages__content {
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 3.5rem;
+    column-gap: 1.5rem;
   }
 }
