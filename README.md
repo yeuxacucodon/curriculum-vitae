@@ -1,1 +1,1 @@
-Hello, this is my resume using Next.js 13
+Hello, this is my CV using Next.js 13
