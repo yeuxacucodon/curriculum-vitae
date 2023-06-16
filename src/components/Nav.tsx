@@ -48,8 +48,8 @@ export default function Nav() {
                 </li>
 
                 <li className={styles.nav__item} onClick={() => setShow(false)}>
-                  <a href="#experience" className={styles.nav__link}>
-                    <i className="bx bxs-briefcase"></i>Experience
+                  <a href="#projects" className={styles.nav__link}>
+                    <i className="bx bxs-briefcase"></i>Projects
                   </a>
                 </li>
 
