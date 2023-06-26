@@ -1,6 +1,6 @@
 import styles from "@/assets/sass/social.module.scss";
 
-export default function Social() {
+const Social: React.FC = () => {
   return (
     <section className={[styles.social, "section"].join(" ")}>
       <h2 className="section-title">SOCIAL</h2>
@@ -17,4 +17,6 @@ export default function Social() {
       </div>
     </section>
   );
-}
+};
+
+export default Social;

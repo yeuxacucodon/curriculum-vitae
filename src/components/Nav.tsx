@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTransition, animated } from "@react-spring/web";
 import styles from "@/assets/sass/nav.module.scss";
 
-export default function Nav() {
+const Nav: React.FC = () => {
   const [show, setShow] = useState(false);
   const transition = useTransition(show, {
     from: { y: 500 },
@@ -69,4 +69,6 @@ export default function Nav() {
       </nav>
     </header>
   );
-}
+};
+
+export default Nav;

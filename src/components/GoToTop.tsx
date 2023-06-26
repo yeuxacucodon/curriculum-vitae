@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useTransition, animated } from "@react-spring/web";
 import styles from "@/assets/sass/gotop.module.scss";
 
-export default function GoToTop() {
+const GoToTop: React.FC = () => {
   const [show, setShow] = useState(false);
   const transition = useTransition(show, {
     from: { y: 100, opacity: 0.5 },
@@ -30,4 +30,6 @@ export default function GoToTop() {
       </animated.a>
     ) : null;
   });
-}
+};
+
+export default GoToTop;

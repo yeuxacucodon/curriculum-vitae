@@ -1,13 +1,8 @@
 import styles from "@/assets/sass/project.module.scss";
+import { project } from "@/types";
+import React from "react";
 
-interface project {
-  title: string;
-  preview: string;
-  repo: string;
-  used: string[];
-}
-
-function ProjectData(props: project) {
+const ProjectData: React.FC<project> = ({ title, repo, preview, used }: project) => {
   return (
     <div className={styles.project__content}>
       <div>
@@ -15,26 +10,26 @@ function ProjectData(props: project) {
         <span className={styles.project__line}></span>
       </div>
       <div className={[styles.project__data, "bd-grid"].join(" ")}>
-        <h3 className={styles.project__title}>{props.title}</h3>
+        <h3 className={styles.project__title}>{title}</h3>
         <p>
           Live preview:{" "}
-          <a target="_blank" href={props.preview}>
+          <a target="_blank" href={preview}>
             Click me!
           </a>
         </p>
         <p>
           GitHub repo:{" "}
-          <a target="_blank" href={props.repo}>
+          <a target="_blank" href={repo}>
             Click me!
           </a>
         </p>
-        <p>Technologies used: {props.used.join(", ")}</p>
+        <p>Technologies used: {used.join(", ")}</p>
       </div>
     </div>
   );
-}
+};
 
-export default function Projects() {
+const Projects: React.FC = () => {
   return (
     <section className="section" id="projects">
       <h3 className="section-title">Projects</h3>
@@ -56,4 +51,6 @@ export default function Projects() {
       </div>
     </section>
   );
-}
+};
+
+export default Projects;

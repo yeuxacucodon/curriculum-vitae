@@ -9,8 +9,9 @@ import Languages from "./Languages";
 import Interests from "./Interests";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import React from "react";
 
-export default function Body() {
+const Body: React.FC = () => {
   return (
     <>
       <main className="l-main bd-container">
@@ -33,4 +34,6 @@ export default function Body() {
       <GoToTop />
     </>
   );
-}
+};
+
+export default Body;

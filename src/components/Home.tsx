@@ -1,13 +1,13 @@
 import Image from "next/image";
-import avt from "@/assets/images/avt.png";
+import React from "react";
 import styles from "@/assets/sass/home.module.scss";
 
-export default function Info() {
+const Info: React.FC = () => {
   return (
     <section className={styles.home} id="home">
       <div className={[styles.home__container, "section", "bd-grid"].join(" ")}>
         <div className={[styles.home__data, "bd-grid"].join(" ")}>
-          <Image src={avt} priority={true} alt="avatar" className={styles.home__img} />
+          <Image src="/images/avt.png" width={500} height={500} priority={true} alt="avatar" className={styles.home__img} />
           <h1 className={styles.home__title}>Vo Quang Chien</h1>
           <h3 className={styles.home__profession}>Web Developer</h3>
         </div>
@@ -22,4 +22,6 @@ export default function Info() {
       </div>
     </section>
   );
-}
+};
+
+export default Info;

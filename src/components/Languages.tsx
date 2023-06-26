@@ -1,6 +1,7 @@
 import styles from "@/assets/sass/languages.module.scss";
+import React from "react";
 
-export default function Languages() {
+const Languages: React.FC = () => {
   return (
     <section className="section" id="languages">
       <h2 className="section-title">Languages</h2>
@@ -23,4 +24,6 @@ export default function Languages() {
       </div>
     </section>
   );
-}
+};
+
+export default Languages;

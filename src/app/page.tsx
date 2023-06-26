@@ -1,8 +1,9 @@
 import Nav from "@/components/Nav"; // Only show on mobile and tablet
 import Footer from "@/components/Footer";
 import Body from "@/components/Body";
+import React from "react";
 
-export default function Page() {
+const Page: React.FC = () => {
   return (
     <>
       <Body />
@@ -10,4 +11,6 @@ export default function Page() {
       <Nav />
     </>
   );
-}
+};
+
+export default Page;

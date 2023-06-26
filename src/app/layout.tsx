@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Vo Quang Chien",
   icons: {
-    icon: "/image/favicon.png",
+    icon: "/images/favicon.png",
   },
 };
 

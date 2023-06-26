@@ -1,6 +1,7 @@
 import styles from "@/assets/sass/profile.module.scss";
+import React from "react";
 
-export default function Profile() {
+const Profile: React.FC = () => {
   return (
     <section className="profile section" id="profile">
       <h2 className="section-title">Profile</h2>
@@ -11,4 +12,6 @@ export default function Profile() {
       </p>
     </section>
   );
-}
+};
+
+export default Profile;

@@ -1,6 +1,6 @@
 import styles from "@/assets/sass/interests.module.scss";
 
-export default function Interests() {
+const Interests: React.FC = () => {
   return (
     <section className="section">
       <h2 className="section-title">Interests</h2>
@@ -21,4 +21,6 @@ export default function Interests() {
       </div>
     </section>
   );
-}
+};
+
+export default Interests;

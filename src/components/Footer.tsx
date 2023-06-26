@@ -1,6 +1,7 @@
 import styles from "@/assets/sass/footer.module.scss";
+import React from "react";
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <section className={styles.footer}>
       <p>
@@ -8,4 +9,6 @@ export default function Footer() {
       </p>
     </section>
   );
-}
+};
+
+export default Footer;

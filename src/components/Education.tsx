@@ -1,12 +1,8 @@
 import styles from "@/assets/sass/education.module.scss";
+import { education } from "@/types";
+import React from "react";
 
-interface education {
-  title: string;
-  studies: string;
-  year: string;
-}
-
-function EducationContent(props: education) {
+function EducationContent({ title, studies, year }: education) {
   return (
     <div className={styles.education__content}>
       <div className={styles.education__time}>
@@ -14,15 +10,15 @@ function EducationContent(props: education) {
         <span className={styles.education__line}></span>
       </div>
       <div className={[styles.education__data, "bd-grid"].join(" ")}>
-        <h3 className={styles.education__title}>{props.title}</h3>
-        <span className={styles.education__studies}>{props.studies}</span>
-        <span className={styles.education__year}>{props.year}</span>
+        <h3 className={styles.education__title}>{title}</h3>
+        <span className={styles.education__studies}>{studies}</span>
+        <span className={styles.education__year}>{year}</span>
       </div>
     </div>
   );
 }
 
-export default function Education() {
+const Education: React.FC = () => {
   return (
     <section className="section" id="education">
       <h2 className="section-title">Education</h2>
@@ -44,4 +40,6 @@ export default function Education() {
       </div>
     </section>
   );
-}
+};
+
+export default Education;
