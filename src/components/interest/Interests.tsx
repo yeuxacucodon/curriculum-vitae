@@ -1,4 +1,4 @@
-import styles from "@/assets/sass/interests.module.scss";
+import styles from "./interests.module.scss";
 
 const Interests: React.FC = () => {
   return (

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTransition, animated } from "@react-spring/web";
-import styles from "@/assets/sass/nav.module.scss";
+import styles from "./nav.module.scss";
 
 const Nav: React.FC = () => {
   const [show, setShow] = useState(false);

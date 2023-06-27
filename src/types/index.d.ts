@@ -10,3 +10,9 @@ export type project = {
   repo: string;
   used: string[];
 };
+
+export type social = {
+  icon: string;
+  link: string;
+  title: string;
+};
