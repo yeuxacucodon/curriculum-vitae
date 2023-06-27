@@ -1,4 +1,4 @@
-import styles from "@/assets/sass/languages.module.scss";
+import styles from "./languages.module.scss";
 import React from "react";
 
 const Languages: React.FC = () => {

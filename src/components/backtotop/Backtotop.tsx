@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import { useTransition, animated } from "@react-spring/web";
-import styles from "@/assets/sass/gotop.module.scss";
+import styles from "./backtotop.module.scss";
 
-const GoToTop: React.FC = () => {
+const Backtotop: React.FC = () => {
   const [show, setShow] = useState(false);
   const transition = useTransition(show, {
     from: { y: 100, opacity: 0.5 },
@@ -32,4 +32,4 @@ const GoToTop: React.FC = () => {
   });
 };
 
-export default GoToTop;
+export default Backtotop;

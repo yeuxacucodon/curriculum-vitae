@@ -1,0 +1,11 @@
+export { default as EducationContent } from "./education/Education";
+export { default as BackToTop } from "./backtotop/Backtotop";
+export { default as Footer } from "./footer/Footer";
+export { default as Home } from "./home/Home";
+export { default as Interests } from "./interest/Interests";
+export { default as Profile } from "./profile/Profile";
+export { default as Project } from "./project/Projects";
+export { default as Social } from "./social/Social";
+export { default as Skills } from "./skill/Skills";
+export { default as Languages } from "./language/Languages";
+export { default as Nav } from "./navbar/Nav";
