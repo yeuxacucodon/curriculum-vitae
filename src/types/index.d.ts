@@ -16,3 +16,16 @@ export type social = {
   link: string;
   title: string;
 };
+
+export type human = {
+  avt: string;
+  name: string;
+  profession: string;
+  phone: string;
+  email: string;
+};
+
+export type language = {
+  lang: string;
+  percent: string;
+};

@@ -1,7 +1,7 @@
 import styles from "./profile.module.scss";
 import React from "react";
 
-const Profile: React.FC<{ children: React.ReactNode }> = ({ children }: { children: React.ReactNode }) => {
+const Profile: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <section className="profile section" id="profile">
       <h2 className="section-title">Profile</h2>

@@ -2,7 +2,7 @@ import styles from "./project.module.scss";
 import { project } from "@/types";
 import React from "react";
 
-const Project: React.FC<project> = ({ title, repo, preview, used }: project) => {
+const Project: React.FC<project> = ({ title, repo, preview, used }) => {
   return (
     <div className={styles.project__content}>
       <div>

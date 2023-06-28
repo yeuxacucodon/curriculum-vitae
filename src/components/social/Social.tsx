@@ -1,7 +1,7 @@
 import { social } from "@/types";
 import styles from "./social.module.scss";
 
-const Social: React.FC<social> = ({ title, icon, link }: social) => {
+const Social: React.FC<social> = ({ title, icon, link }) => {
   return (
     <a target="_blank" href={link} className={styles.social__link}>
       <i className={icon}></i>

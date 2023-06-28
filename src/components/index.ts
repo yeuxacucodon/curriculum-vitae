@@ -7,5 +7,5 @@ export { default as Profile } from "./profile/Profile";
 export { default as Project } from "./project/Projects";
 export { default as Social } from "./social/Social";
 export { default as Skills } from "./skill/Skills";
-export { default as Languages } from "./language/Languages";
+export { default as Language } from "./language/Language";
 export { default as Nav } from "./navbar/Nav";
