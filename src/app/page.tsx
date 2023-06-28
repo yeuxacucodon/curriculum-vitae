@@ -1,6 +1,6 @@
 import React from "react";
-import { Education, Projects, ProfileContent, Socials, Skills } from "@/content";
-import { Footer, BackToTop, Interests, Home, Languages, Nav } from "@/components";
+import { Education, Projects, ProfileContent, Socials, Skills, HomeContent, Languages } from "@/content";
+import { Footer, BackToTop, Interests, Nav } from "@/components";
 
 const Page: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Page: React.FC = () => {
       <main className="l-main bd-container">
         <div className="resume">
           <div className="resume__left">
-            <Home />
+            <HomeContent />
             <Socials />
             <ProfileContent />
             <Education />

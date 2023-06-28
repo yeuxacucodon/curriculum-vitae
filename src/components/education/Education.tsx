@@ -2,7 +2,7 @@ import styles from "./education.module.scss";
 import { education } from "@/types";
 import React from "react";
 
-function EducationContent({ title, studies, year }: education) {
+const EducationContent: React.FC<education> = ({ title, studies, year }) => {
   return (
     <div className={styles.education__content}>
       <div className={styles.education__time}>
@@ -16,6 +16,6 @@ function EducationContent({ title, studies, year }: education) {
       </div>
     </div>
   );
-}
+};
 
 export default EducationContent;

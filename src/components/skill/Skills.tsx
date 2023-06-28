@@ -1,7 +1,7 @@
 import styles from "./skills.module.scss";
 import React from "react";
 
-const Skills: React.FC<{ list: string[] }> = ({ list }: { list: string[] }) => {
+const Skills: React.FC<{ list: string[] }> = ({ list }) => {
   return (
     <ul>
       {list.map((skill, index) => {
