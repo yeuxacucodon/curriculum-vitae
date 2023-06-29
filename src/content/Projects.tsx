@@ -14,6 +14,12 @@ const data: project[] = [
     repo: "https://github.com/yeuxacucodon/Fylo_landing_page",
     used: ["HTML", "Sass"],
   },
+  {
+    title: "GPT3 landing page",
+    preview: "https://gpt-clone-opal.vercel.app/",
+    repo: "https://github.com/yeuxacucodon/gpt_clone",
+    used: ["Next.js, Tailwind CSS"],
+  },
 ];
 
 const Projects: React.FC = () => {
