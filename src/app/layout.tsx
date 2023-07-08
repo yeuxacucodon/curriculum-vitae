@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
-import "boxicons/css/boxicons.min.css";
 import "./global.scss";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,6 +14,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
