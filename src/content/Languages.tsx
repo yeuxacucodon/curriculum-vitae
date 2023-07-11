@@ -24,7 +24,7 @@ const Languages: React.FC = () => {
           ))}
         </ul>
       </div>
-    </section>
+    </section
   );
 };
 
